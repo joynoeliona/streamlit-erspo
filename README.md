@@ -1,19 +1,10 @@
-# :earth_americas: GDP dashboard template
+# Streamlit Word Cloud from Twitter
 
-A simple Streamlit app showing the GDP of different countries in the world.
+Aplikasi Streamlit untuk mencari tweet dari Twitter berdasarkan kata kunci dan membuat Word Cloud.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+## Cara Deploy
 
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+1. Upload aplikasi ini ke GitHub.
+2. Daftarkan aplikasi di Streamlit Cloud: https://streamlit.io/cloud
+3. Masukkan token API Twitter Anda di halaman **Settings > Secrets** di Streamlit Cloud.
+4. Gunakan aplikasi di URL yang diberikan.
